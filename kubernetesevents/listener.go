@@ -77,7 +77,7 @@ func readMessages(ws *websocket.Conn, url string, rc chan<- error, handler Handl
 		if err != nil {
 			return fmt.Errorf("Error parsing event: %s", err)
 		}
-		log.Infof("Received event: [%s]", msg)
+		log.Infof("Received k8s event: [%s]", msg)
 
 		err = handler.Handle(event)
 		if err != nil {

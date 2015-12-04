@@ -6,7 +6,7 @@
 	url = https://github.com/gorilla/websocket.git
 [submodule "vendor/github.com/rancher/kubernetes-model"]
 	path = vendor/github.com/rancher/kubernetes-model
-	url = https://github.com/rancher/kubernetes-model.git
+	url = https://github.com/antmanler/kubernetes-model.git
 [submodule "vendor/github.com/rancher/go-rancher"]
 	path = vendor/github.com/rancher/go-rancher
 	url = https://github.com/rancher/go-rancher.git

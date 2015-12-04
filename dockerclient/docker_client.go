@@ -1,9 +1,10 @@
 package dockerclient
 
 import (
-	"github.com/fsouza/go-dockerclient"
 	"os"
 	"path"
+
+	"github.com/fsouza/go-dockerclient"
 )
 
 const (
